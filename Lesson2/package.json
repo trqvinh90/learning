@@ -1,0 +1,32 @@
+{
+  "name": "Lesson2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vinh Tran",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
+    "redux": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "babel-jest": "^27.2.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.2.0",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.0"
+  },
+  "scripts": {
+    "build": "webpack --config=webpack.config.prod.js",
+    "build-dev": "webpack --config=webpack.config.dev.js",
+    "start": "webpack-dev-server --config=webpack.config.prod.js --open",
+    "test": "jest"
+  }
+}
