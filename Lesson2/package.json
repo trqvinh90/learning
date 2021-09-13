@@ -24,9 +24,10 @@
     "webpack-dev-server": "^4.2.0"
   },
   "scripts": {
-    "build": "webpack --config=webpack.config.prod.js",
-    "build-dev": "webpack --config=webpack.config.dev.js",
-    "start": "webpack-dev-server --config=webpack.config.prod.js --open",
+    "build": "webpack --config=webpack.config.dev.js",
+    "build:prod": "webpack --config=webpack.config.prod.js",
+    "start": "webpack-dev-server --config=webpack.config.dev.js --open",
+    "start:prod": "webpack-dev-server --config=webpack.config.prod.js --open",
     "test": "jest"
   }
 }
